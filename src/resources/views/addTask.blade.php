@@ -5,7 +5,7 @@
       //dd($input);
     @endphp
     <div class="mt-4">
-        <p class="font-weight-bold">Refer new client</p>
+        <p class="font-weight-bold">Add new task</p>
         <form action="/task/create" method="post">
             @csrf
             @if ($errors->any())
